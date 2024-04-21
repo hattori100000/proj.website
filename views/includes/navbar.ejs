@@ -101,17 +101,20 @@
       </form>
     </div>
 
+ 
     <div class="navbar-nav ms-auto">
       <li class="nav-item">
         <a class="nav-link" href="/listings/new">Add new Listing</a>
       </li>
-      <% if(!currUser) { %>
+      <% if (!currUser) { %>
         <a href="/signup" class="nav-link"><b>Signup</b></a>
         <a href="/login" class="nav-link"><b>Login</b></a>
       <% } %>
-      <% if(currUser) { %>
+      <% if (currUser) { %>
         <a href="/logout" class="nav-link">Logout</a>
       <% } %>
     </div>
+    
   </div>
 </nav>
+
