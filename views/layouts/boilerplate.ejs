@@ -10,20 +10,13 @@
   <link rel="stylesheet" href="/css/rating.css"/>
 </head>
 <body>
-  <% if (typeof currUser !== 'undefined') { %>
-    <%- include("../includes/navbar.ejs", { currUser: currUser }) %>
-  <% } else { %>
-    <!-- Handle case when currUser is not defined -->
-    <!-- You can add alternative content or handle this scenario as needed -->
-  <% } %>
+  <% include("../includes/navbar.ejs", { currUser: currUser }) %>
   <section>
-    <%- include("../includes/flash.ejs") %>
-    <%- body -%>
+    <% include("../includes/flash.ejs") %>
+    <% body %>
   </section>
-  <%- include("../includes/footer.ejs") %>
+  <% include("../includes/footer.ejs") %>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="/js/script.js"></script>
-</body>
-</html>
 </body>
 </html>
