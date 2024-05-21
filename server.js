@@ -10,11 +10,11 @@ const ExpressError= require("./utils/ExpressError")
 const session =require("express-session")
 const MongoStore = require('connect-mongo');
 const flash = require("connect-flash")
-const listingsrouter = require("./routes/listing.js")
-const reviewsrouter = require("./routes/reviews.js")
-const userrouter = require("./routes/user.js")
+const listingsrouter = require("./routes/listing-route.js")
+const reviewsrouter = require("./routes/reviews-route.js")
+const userrouter = require("./routes/user-route.js")
 const passport = require("passport")
-const User= require("./model/user.js")
+const User= require("./model/user-model.js")
 const LocalStrategy= require("passport-local")
 const { MongoClient } = require('mongodb');
 

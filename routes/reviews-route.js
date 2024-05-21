@@ -1,14 +1,14 @@
 const express = require("express")
 
 const router = express.Router({mergeParams:true})
-const wrapAsyc= require("../utils/wrapAsyc")
-const ExpressError= require("../utils/ExpressError")
+const wrapAsyc= require("../utils/wrapAsyc.js")
+const ExpressError= require("../utils/ExpressError.js")
 const {listingSchema, reviewSchema,} = require("../schema.js")
-const Listing = require("../model/listing")
+const Listing = require("../model/listing-model.js")
 
-const Review = require("../model/review.js")
+const Review = require("../model/review-model.js")
 const { isLoggedIn, isReviewAuthor } = require("../middleware.js")
-const reviewController = require("../controllers/reviews.js")
+const reviewController = require("../controllers/reviews-controller.js")
 
 //creatting the schema validatereviews for fnx
 const validatReviews = (req, res, next)=> {

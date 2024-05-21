@@ -1,11 +1,11 @@
 const express = require("express")
 const router = express.Router()
-const User = require("../model/user")
+const User = require("../model/user-model")
 const passport = require("passport")
 const { saveRedirectUrl, isLoggedIn } = require("../middleware")
 const wrapAsyc= require("../utils/wrapAsyc")
-const userController = require("../controllers/users")
-const user = require("../model/user")
+const userController = require("../controllers/users-controller")
+const user = require("../model/user-model")
 
 
 router.route("/signup")

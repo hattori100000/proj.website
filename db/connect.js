@@ -1,6 +1,6 @@
 const mongoose= require("mongoose")
 const initData = require("../init/data")
-const Listing= require("../model/listing")
+const Listing= require("../model/listing-model")
 const batchSize = 100; 
 
 const URL = "mongodb+srv://clownlaugh100:thapa@cluster0.pbwu43f.mongodb.net/duplicate?retryWrites=true&w=majority&appName=Cluster0"
