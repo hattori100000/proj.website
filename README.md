@@ -25,5 +25,5 @@ This website is a platform for listing hotels, where authorized users can manage
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/hotel-listings-website.git
-   cd hotel-listings-website
+   git clone https://github.com/sakarthapa100/hotellistings-website.git
+   cd hotellistings-website
