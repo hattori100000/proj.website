@@ -27,3 +27,5 @@ This website is a platform for listing hotels, where authorized users can manage
    ```bash
  git clone https://github.com/sakarthapa100/hotellisting-website
    cd hotellisting-website
+   nodemon server.js
+   
