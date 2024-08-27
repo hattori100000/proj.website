@@ -4,7 +4,7 @@
 
 This website is a platform for listing hotels, where authorized users can manage hotel listings and perform CRUD operations on ratings. Users can view hotel listings and provide ratings, but only authorized users can create, update, or delete hotels and manage ratings.
 
-## Features
+## Features-
 
 - **Authorized User Features:**
   - List Hotels
@@ -28,4 +28,5 @@ This website is a platform for listing hotels, where authorized users can manage
  git clone https://github.com/sakarthapa100/hotellisting-website
    cd hotellisting-website
    nodemon server.js
+   .
    
