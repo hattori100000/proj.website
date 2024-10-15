@@ -29,5 +29,5 @@ This website is a platform for listing hotels, where authorized users can manage
    cd hotellisting-website
    nodemon server.js
    .
-   
+   ..
 .
